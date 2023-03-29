@@ -24,8 +24,8 @@ function setColor(event) {
 function removeColor(event) {
     const element = event.target
 
-    element.style.backgroundColor = '#FF9800'
-    element.style.boxShadow = `0 0 2px #FF9800`
+    element.style.backgroundColor = '#12B638'
+    element.style.boxShadow = `0 0 2px #12B638`
 }
 
 function getRandomColor() {

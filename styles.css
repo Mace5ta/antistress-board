@@ -3,7 +3,8 @@
 }
 
 body {
-    background-color: #B9DEF1;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,46,121,1) 31%, rgba(0,212,255,1) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,15 +18,15 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 400px;
+    max-width: 500px;
 }
 
 .square {
-    width: 16px;
-    height: 16px;
-    background: #FF9800;
+    width: 20px;
+    height: 20px;
+    background: #12B638;
     margin: 2px;
-    box-shadow: 0 0 2px #FF9800;
+    box-shadow: 0 0 2px #12B638;
     transition: 2s ease;
 }
 
